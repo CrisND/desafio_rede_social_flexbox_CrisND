@@ -1,0 +1,43 @@
+section{
+    border: 1px solid gray;
+    background-color: lightgray;     
+}
+
+.rede-social-container {
+    color: black;
+    border: 1px solid gray;
+    background-color: white; 
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+  }
+
+.imagens-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30%;
+    margin: 1%;
+}
+
+.imagem-usuário {
+    display: flex;
+    justify-content: center;
+}
+
+.imagens-redes-sociais {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-container{
+    font-family: raleway;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 1%;
+
+}
