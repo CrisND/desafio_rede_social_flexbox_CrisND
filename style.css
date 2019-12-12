@@ -1,3 +1,7 @@
+body{
+    src: url(https://fonts.google.com/specimen/Raleway);
+}
+
 .rede-social-container{
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +15,14 @@
     flex-direction: row;
 }
 
-
+button{
+    background-color: gray; 
+    padding: 2%;
+    width: 100px;
+    border: none;
+    text-align: center;
+    color: white; 
+}
 .rede-social-item {
     color: black;
     border: 1px solid gray;
@@ -20,6 +31,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 45%;
+    /* //trouble to use 100%; not mobile responsive */
     padding: 1%;     
     margin: 10px;
   }
@@ -45,13 +57,17 @@
     width: 70%;
 }
 
+
 h1{
-    font-family: "raleway";
+    font-family: "Raleway"; 
+    /* //font doesn't work...  */
     font-size: 30px;
+    font-style: bold; 
 }
 
 p{
-    font-family: "raleway";
+    font-family: "Raleway";
+    font-size: 15px;
 }
 
 .info{
